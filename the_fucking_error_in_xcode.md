@@ -8,4 +8,4 @@ Fucking error in xcode
 
 
 #### fucking error two : no app compiled only a test fucking thing .
-> fuck,i fuck first !!! i found my framework compile fucking very quicklly ,but no app generated !! fuck ! it compiled what ?!!? then i found that i only chose test module to compile ... select the main source to compile !!!!
+> fuck,i fuck first !!! i found my code compile fucking very quicklly ,but no app generated !! fuck ! it compiled what ?!!? then i found that i only chose test module to compile ... select the main source to compile !!!!
