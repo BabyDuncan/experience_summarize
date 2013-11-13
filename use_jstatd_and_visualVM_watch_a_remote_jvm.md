@@ -3,9 +3,7 @@
 
 first vim a file named jstatd.java.policy :
 >   grant codebase "file:${java.home}/../lib/tools.jar" {
-  
      permission java.security.AllPermission;
-  
   };
 
 then :
