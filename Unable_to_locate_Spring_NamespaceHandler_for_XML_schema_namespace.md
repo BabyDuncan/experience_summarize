@@ -1,7 +1,7 @@
 add this to your POM.xml
 ==========================
-
-<plugin>
+>
+        <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-shade-plugin</artifactId>
                 <version>1.6</version>
