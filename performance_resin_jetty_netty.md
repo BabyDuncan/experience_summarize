@@ -6,7 +6,6 @@ resin:
     This is ApacheBench, Version 2.3 <$Revision: 655654 $>
     Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
     Licensed to The Apache Software Foundation, http://www.apache.org/
-    
     Benchmarking 10.16.1.48 (be patient)
     Completed 1000 requests
     Completed 2000 requests
@@ -19,15 +18,11 @@ resin:
     Completed 9000 requests
     Completed 10000 requests
     Finished 10000 requests
-    
-    
     Server Software:        Jetty(8.1.14.v20131031)
     Server Hostname:        10.16.1.48
     Server Port:            8082
-    
     Document Path:          /protocol_performance/httpPerf
     Document Length:        8 bytes
-    
     Concurrency Level:      1000
     Time taken for tests:   5.306 seconds
     Complete requests:      10000
@@ -39,14 +34,12 @@ resin:
     Time per request:       530.578 [ms] (mean)
     Time per request:       0.531 [ms] (mean, across all concurrent requests)
     Transfer rate:          555.85 [Kbytes/sec] received
-    
     Connection Times (ms)
                   min  mean[+/-sd] median   max
     Connect:        3   19  41.3      5     250
     Processing:    10  485 274.7    439    3117
     Waiting:       10  484 273.4    439    3117
     Total:         47  503 274.9    445    3138
-    
     Percentage of the requests served within a certain time (ms)
       50%    445
       66%    459
