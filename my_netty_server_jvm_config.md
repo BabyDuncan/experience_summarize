@@ -1,0 +1,21 @@
+        调优参数
+        -server   使用服务器模式
+        -Xmx4g    最大分配4g内存
+        -Xms4g    初始化内存4g，减少内存动荡
+        -Xmn2g    高吞吐server，增大年轻代内存
+        -Xss128k  减小线程栈大小，使server生产出更多的线程
+        -XX:SurvivorRatio=30   增大eden与survivor的比值，使survivor更小，使对象更不容易进去到旧生代
+        -XX:PermSize=128m      持久代
+        -XX:MaxPermSize=256m   增大持久代
+        -XX:MaxTenuringThreshold=128  128岁的对象才可以进入到旧生代，增加新生代minor collection的机率
+        -XX:+UseParNewGC   年轻代采用并行收集策略，加快收集速度。
+        -XX:+UseConcMarkSweepGC 年老代采用CMS收集
+        -XX:CMSInitiatingOccupancyFraction=70 堆区占用到70%的时候，开始进行CMS
+        -XX:+UseCMSCompactAtFullCollection 对CMS采用压缩策略
+        -XX:CMSFullGCsBeforeCompaction=3  3次full gc 做一次碎片整理
+        
+        -XX:+PrintGCDetails 打印GC详细日志
+        -XX:+PrintGCTimeStamps 打印GC 时间
+        -XX:+PrintGCApplicationConcurrentTime 打印gc过程 程序未中断时间
+        -XX:+PrintGCApplicationStoppedTime 打印gc过程中 程序中断的时间
+        -Xloggc:/opt/logs/service/gc.log_netty_saccount_web   gc日志
