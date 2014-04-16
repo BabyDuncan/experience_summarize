@@ -32,6 +32,6 @@ Failed to retrieve numeric file attributes using: '/bin/sh -c ls
 ## SOLVE
 
 Hi I solved my problem: 
-I should have not specified <directory>/<directory> in the descriptor. 
+I should have not specified `<directory>/<directory>` in the descriptor. 
 I should have removed that line. 
 
