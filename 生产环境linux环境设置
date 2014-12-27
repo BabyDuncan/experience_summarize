@@ -1,0 +1,5 @@
+1，配置JAVA_HOME 以及把 JAVA_HOME/bin 配置到path中
+
+2，修改HOSTS LOCALHOST 指向网卡ip 而不是127.0.0.1
+
+3，修改系统文件句柄数 ulimit -n 65535 
